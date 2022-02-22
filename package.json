@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start:appium": "appium --address 127.0.0.1 --port 4723",
-    "run:test": "./node_modules/.bin/cucumber-js -f html:report/cucumber_report.html -f json:report/cucumber_report.json"
+    "test": "./node_modules/.bin/cucumber-js -f html:report/cucumber_report.html -f json:report/cucumber_report.json"
   },
   "keywords": [],
   "author": "",
