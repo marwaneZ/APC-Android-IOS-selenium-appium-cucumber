@@ -1,0 +1,16 @@
+{
+    "android": {
+        "app": "apps/android/EriBank.apk",
+        "appPackage": "com.experitest.ExperiBank",
+        "appActivity": "com.experitest.ExperiBank.LoginActivity",
+        "noReset": "false",
+        "browserName": ""
+    },
+    "ios": {
+        "app": "apps/android/EriBank.ipa",
+        "appPackage": "com.experitest.ExperiBank",
+        "appActivity": "com.experitest.ExperiBank.LoginActivity",
+        "noReset": "false",
+        "browserName": ""
+    }
+}

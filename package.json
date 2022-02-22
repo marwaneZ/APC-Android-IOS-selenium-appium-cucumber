@@ -1,0 +1,23 @@
+{
+  "name": "tuto4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:appium": "appium --address 127.0.0.1 --port 4723",
+    "run:test": "./node_modules/.bin/cucumber-js -f html:report/cucumber_report.html -f json:report/cucumber_report.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.0.0-rc.2",
+    "assert": "^2.0.0",
+    "assert-plus": "^1.0.0",
+    "chai": "^4.3.4",
+    "cucumber-html-reporter": "^5.5.0",
+    "selenium-appium": "1.0.2",
+    "selenium-webdriver": "^4.1.1"
+  }
+}

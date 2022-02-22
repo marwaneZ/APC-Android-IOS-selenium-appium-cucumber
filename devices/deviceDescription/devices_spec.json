@@ -1,0 +1,13 @@
+{
+    "android": {
+        "deviceName": "emulator-5554",
+        "platformName": "android",
+        "platformVersion": "11"
+    },
+    "ios": {
+        "deviceName": "iPhone 13",
+        "automationName": "XCUITest",
+        "platformName": "iOS",
+        "platformVersion": "15.2"
+    }
+}

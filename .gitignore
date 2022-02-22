@@ -1,0 +1,10 @@
+node_modules
+*.log
+Screenshots/*.png
+reports/*.xml
+reports/*.json
+reports/*.html
+.history
+.vscode
+report/cucumber_report.html
+report/cucumber_report.json

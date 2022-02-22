@@ -1,0 +1,11 @@
+{
+    "LoginPage": {
+        "usernameId": "//android.widget.EditText[@resource-id='com.experitest.ExperiBank:id/usernameTextField']",
+        "passwordId": "//android.widget.EditText[@resource-id='com.experitest.ExperiBank:id/passwordTextField']",
+        "loginId": "//android.widget.Button[@resource-id='com.experitest.ExperiBank:id/loginButton']",
+        "okbutton": "//android.widget.Button[@resource-id='android:id/button1']"
+    },
+    "homePage": {
+        "logoutId": "//android.widget.Button[@resource-id='com.experitest.ExperiBank:id/logoutButton']"
+    }
+}
