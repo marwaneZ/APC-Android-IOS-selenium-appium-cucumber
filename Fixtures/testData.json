@@ -1,6 +1,7 @@
 {
     "user": {
         "username": "company",
-        "password": "company"
+        "password": "company",
+        "wrong_password": "copany"
     }
 }

@@ -19,6 +19,7 @@ const deviceFactory = require("../../../devices/deviceFactory/DeviceConstructor"
 const selectedData = require("../../../Support/dataBuilder");
 let loginPageElt = new selectedData("login_page");
 let homePageElt = new selectedData("home_page");
+let testData = new selectedData("test_data");
 let driver;
 let url = "http://127.0.0.1:4723/wd/hub";
 ////////////ids
@@ -42,10 +43,10 @@ When("the user logs in with invalid credentials", async () => {
     .click();
   await driver
     .wait(until.elementLocated(By.xpath(loginPageElt["usernameId"]), 10000))
-    .sendKeys("company");
+    .sendKeys(testData["username"]);
   await driver
     .wait(until.elementLocated(By.xpath(loginPageElt["passwordId"]), 10000))
-    .sendKeys("copany");
+    .sendKeys(testData["wrong_password"]);
   await driver
     .wait(until.elementLocated(By.xpath(loginPageElt["loginId"]), 10000))
     .click();
@@ -57,10 +58,10 @@ When("the user logs in with valid credentials", async () => {
     .click();
   await driver
     .wait(until.elementLocated(By.xpath(loginPageElt["usernameId"]), 10000))
-    .sendKeys("company");
+    .sendKeys(testData["username"]);
   await driver
     .wait(until.elementLocated(By.xpath(loginPageElt["passwordId"]), 10000))
-    .sendKeys("company");
+    .sendKeys(testData["password"]);
   await driver
     .wait(until.elementLocated(By.xpath(loginPageElt["loginId"]), 10000))
     .click();

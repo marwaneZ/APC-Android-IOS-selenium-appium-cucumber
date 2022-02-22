@@ -43,6 +43,7 @@ module.exports = function testDataBuilder(target) {
         return (data = {
           username: testData.user.username,
           password: testData.user.password,
+          wrong_password: testData.user.wrong_password,
         });
       },
       login_page: () => {
